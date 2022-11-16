@@ -35,7 +35,7 @@ namespace Amqp
 
         public void Start(Connection connection)
         {
-            Task task = this.StartAsync(connection);
+            Task.Run (() => this.StartAsync(connection));
         }
 
         public async Task PumpAsync(uint maxFrameSize, Func<ProtocolHeader, bool> onHeader, Func<ByteBuffer, bool> onBuffer)
