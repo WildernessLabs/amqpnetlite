@@ -1,8 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <Authors>Wilderness Labs, Inc</Authors>
     <TargetFrameworks>netstandard1.3;netstandard2.0</TargetFrameworks>
-    <AssemblyName>Amqp.Net</AssemblyName>
-    <PackageId>AmqpNetLite</PackageId>
+    <AssemblyName>AmqpNetLite</AssemblyName>
+    <Company>Wilderness Labs, Inc</Company>
+    <PackageProjectUrl>https://github.com/WildernessLabs/GNSS_Sensor_Tracker</PackageProjectUrl>
+    <PackageId>Meadow.AmqpNetLite</PackageId>
+    <RepositoryUrl>https://github.com/WildernessLabs/Meadow.ProjectLab</RepositoryUrl>
+    <PackageTags>Meadow.GnssTracker, Meadow, GnssTracker</PackageTags>
+    <Version>0.96.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Convenience library for the Meadow GnssTracker family of boards</Description>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
@@ -10,6 +20,10 @@
     <IntermediateOutputPath>..\obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
     <OutputPath>..\bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Net35/*;WinRT/*;Serialization/*;Net/WebSocketTransport.cs;Net/WebSocketTransportFactory.cs" />
@@ -44,6 +58,6 @@
     <PackageReference Include="System.Threading.Timer" Version="4.3.0" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>
