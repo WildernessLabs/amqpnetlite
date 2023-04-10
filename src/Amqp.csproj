@@ -6,9 +6,9 @@
     <TargetFrameworks>netstandard1.3;netstandard2.0</TargetFrameworks>
     <AssemblyName>AmqpNetLite</AssemblyName>
     <Company>Wilderness Labs, Inc</Company>
-    <PackageProjectUrl>https://github.com/WildernessLabs/GNSS_Sensor_Tracker</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/WildernessLabs/amqpnetlite</PackageProjectUrl>
     <PackageId>Meadow.AmqpNetLite</PackageId>
-    <RepositoryUrl>https://github.com/WildernessLabs/Meadow.ProjectLab</RepositoryUrl>
+    <RepositoryUrl>https://github.com/WildernessLabs/amqpnetlite</RepositoryUrl>
     <PackageTags>Meadow.GnssTracker, Meadow, GnssTracker</PackageTags>
     <Version>0.96.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
