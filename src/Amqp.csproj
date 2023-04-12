@@ -9,10 +9,10 @@
     <PackageProjectUrl>https://github.com/WildernessLabs/amqpnetlite</PackageProjectUrl>
     <PackageId>Meadow.AmqpNetLite</PackageId>
     <RepositoryUrl>https://github.com/WildernessLabs/amqpnetlite</RepositoryUrl>
-    <PackageTags>Meadow.GnssTracker, Meadow, GnssTracker</PackageTags>
+    <PackageTags>Meadow.AmqpNetLite, Meadow, AmqpNetLite, Amqp</PackageTags>
     <Version>0.96.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Convenience library for the Meadow GnssTracker family of boards</Description>
+    <Description>Azure AMQP library for Meadow family of boards</Description>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
