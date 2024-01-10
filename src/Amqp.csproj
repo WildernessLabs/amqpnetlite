@@ -10,7 +10,7 @@
     <PackageId>Meadow.AmqpNetLite</PackageId>
     <RepositoryUrl>https://github.com/WildernessLabs/amqpnetlite</RepositoryUrl>
     <PackageTags>Meadow.AmqpNetLite, Meadow, AmqpNetLite, Amqp</PackageTags>
-    <Version>0.96.0</Version>
+    <Version>1.7.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Azure AMQP library for Meadow family of boards</Description>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
